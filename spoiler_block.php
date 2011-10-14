@@ -35,11 +35,9 @@ add_action('wp_enqueue_scripts', 'add_sb_scripts');
 
 function add_sb_style() {
     $myStyleUrl = plugins_url('css/style.css', __FILE__);
-    $myStyleFile = WP_PLUGIN_DIR . '/spoiler_block/css/style.css';
-    if ( file_exists($myStyleFile) ) {
-        wp_register_style('spoiler_block', $myStyleUrl);
-        wp_enqueue_style( 'spoiler_block');
-    }
+
+    wp_register_style('spoiler_block', $myStyleUrl);
+    wp_enqueue_style( 'spoiler_block');
 }
 
 function add_sb_scripts() {
