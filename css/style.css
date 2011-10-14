@@ -1,0 +1,13 @@
+/* just code */
+.spoiler{
+	background:#FF0000;
+	border-radius:5px;
+	padding:5px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.spoiler-open{
+	background:#FFDEDE;
+	border-radius:5px;
+	padding:5px;
+}
