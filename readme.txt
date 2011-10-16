@@ -4,7 +4,7 @@ Contributors: Brunno dos Santos
 Tags: spoiler, block text, content spoiler, spoilers, hidden content, content
 Requires at least: 3.2.1
 Tested up to: 3.2.1
-Stable tag: 1.2
+Stable tag: 1.5
 Licence: GPLv2
 
 Plugin to block spoilers in your posts.
@@ -33,13 +33,16 @@ If you have already installed the plugin:
 
 To set a Spoiler block, select a post, or create a new one, select any text then click in spoiler button in your Wordpress Editor. Your text now is set as spoiler.
 
-To remove a spoiler block, select HTML mode, and remove tags <span class="spoiler"> and </span> that are around your text. (the feature to automatize this function is under development)
+To remove a spoiler block, just select the spoiler block then click in spoiler button.
 
 Brunno dos Santos
 brunno@abstraindo.com
 http://brunno.abstraindo.com
 
 == Changelog ==
+
+= 1.5 =
+* Now you can clear spoiler block if you click in spoiler button! :)
 
 = 1.2 =
 * Correction in CSS Queue.
@@ -48,6 +51,9 @@ http://brunno.abstraindo.com
 * Add missing files to Wordpress SVN
 
 == Upgrade Notice ==
+
+= 1.5 =
+* Now you can clear spoiler block if you click in spoiler button! :)
 
 = 1.2 =
 * Correction in CSS Queue.
@@ -67,7 +73,3 @@ http://brunno.abstraindo.com
 = How can I remove a spoiler of my post? =
 
 To remove a spoiler block, select HTML mode, and remove tags <span class="spoiler"> and </span> that are around your text. (the feature to automatize this function is under development)
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.

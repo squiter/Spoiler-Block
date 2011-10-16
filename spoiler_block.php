@@ -3,7 +3,7 @@
 Plugin Name: Spoiler Block
 Plugin URI: https://github.com/squiter85/Spoiler-Block
 Description: Create spoiler's block in your posts to hide contents.
-Version: 1.2
+Version: 1.5
 Author: Brunno dos Santos
 Author URI: http://brunno.abstraindo.com
 License: GPL2

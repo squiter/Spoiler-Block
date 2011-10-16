@@ -7,7 +7,14 @@
 			image: url + "/images/spoiler.png",
                 onclick : function() {
                     ed.focus();
-					ed.selection.setContent('<span class="spoiler">' + ed.selection.getContent() + '</span>');
+					var s = ed.selection.getContent();
+					var rx = /(<span class=\"spoiler\">)(.*)(<\/span>)/;
+					if( s.match(rx) != null ){
+						var ns = s.replace(s.match(rx)[1],"").replace(s.match(rx)[3],"");
+						ed.selection.setContent(ns);
+					}else{
+						ed.selection.setContent('<span class="spoiler">' + ed.selection.getContent() + '</span>');
+					}
                 },
             });
         }
