@@ -4,7 +4,7 @@ Contributors: Brunno dos Santos
 Tags: spoiler, block text, content spoiler, spoilers, hidden content, content
 Requires at least: 3.2.1
 Tested up to: 3.2.1
-Stable tag: 1.5
+Stable tag: 1.6
 Licence: GPLv2
 
 Plugin to block spoilers in your posts.
@@ -41,6 +41,11 @@ http://brunno.abstraindo.com
 
 == Changelog ==
 
+= 1.6 =
+* Resolve some bugs;
+* Add i18n support;
+* Include Brazilian Portugueses language;
+
 = 1.5 =
 * Now you can clear spoiler block if you click in spoiler button! :)
 
@@ -72,4 +77,10 @@ http://brunno.abstraindo.com
 
 = How can I remove a spoiler of my post? =
 
-To remove a spoiler block, select HTML mode, and remove tags <span class="spoiler"> and </span> that are around your text. (the feature to automatize this function is under development)
+To remove a spoiler block, just select the spoiler block then click in spoiler button.
+
+= How can I customize the spoilers blocks in my blog? =
+
+To customize the blocks of spoilers, just add the follow selectors in your css file:
+* .spoiler to spoilers closed blocks;
+* .spoiler-open to spoilers already clicked by users;

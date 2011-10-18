@@ -5,6 +5,7 @@
 	padding:5px;
 	font-weight:bold;
 	color:#FFFFFF;
+	cursor:pointer;
 }
 .spoiler-open{
 	background:#FFDEDE;

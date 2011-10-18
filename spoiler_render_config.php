@@ -14,21 +14,21 @@ if(isset($_POST["alert"]) && !empty($_POST["alert"])):
 	?>
 	<div id="message" class="updated">
 		<p>
-			<strong>Congratulations! Your settings is updated! :D</strong>
+			<strong><?php _e("Congratulations! Your settings is updated! :D",SPOILERBLOCK_TEXTDOMAIN);?></strong>
 		</p>
 	</div>
 	<?php
 endif;
 ?>
 <div class="wrap">
-	<h2>Spoiler Block Configuration</h2>
-	<p>This page is where you'll configure your plugin.<br />Let's go :)</p>
+	<h2><?php _e("Spoiler Block Configuration",SPOILERBLOCK_TEXTDOMAIN);?></h2>
+	<p><?php _e("This page is where you'll configure your plugin.<br />Let's go :)",SPOILERBLOCK_TEXTDOMAIN);?></p>
 	
 	<div class="wrap-config">
 		<form action="" method="post" accept-charset="utf-8">		
 			<table border="0">
 				<tr>
-					<td><label for="alert">Spoiler Alert:<span>This alert  message will replace your spoilers. You need let your visitors know that they need to click in this message.</span></label></td>
+					<td><label for="alert"><?php _e("Spoiler Alert:",SPOILERBLOCK_TEXTDOMAIN);?><span><?php _e("This alert  message will replace your spoilers. You need let your visitors know that they need to click in this message.",SPOILERBLOCK_TEXTDOMAIN);?></span></label></td>
 					<td><input type="text" name="alert" value="<?php echo get_option("spoiler_alert");?>" id="alert" />
 				</tr>
 				<tr>
@@ -40,7 +40,7 @@ endif;
 	</div>
 		
 	<div class="donate postbox">
-		<p>If you like my plugin, please buy me a Coke</p>
+		<p><?php _e("If you like my plugin, please buy me a Coke",SPOILERBLOCK_TEXTDOMAIN);?></p>
 		<div class="wrap-paypal">
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
