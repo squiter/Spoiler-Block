@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Spoiler Block
-Plugin URI: https://github.com/squiter85/Spoiler-Block
+Plugin URI: http://brunno.me/spoiler-block
 Description: Create spoiler's block in your posts to hide contents.
-Version: 1.6
-Author: Brunno dos Santos
-Author URI: http://brunno.abstraindo.com
+Version: 1.6.3
+Author: squiter
+Author URI: http://brunno.me
 License: GPL2
 */
 
-/*  Copyright 2011  Brunno dos Santos  (email : brunno@abstraindo.com)
+/*  Copyright 2011  Brunno dos Santos  (email : brunno@brunno.me)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -61,7 +61,7 @@ load_plugin_textdomain( SPOILERBLOCK_TEXTDOMAIN, false, "/spoiler-block/language
 /* enfileirando os marotos */
 
 function add_sb_style() {
-    $myStyleUrl = SPOILERBLOCK_PLUGIN_URL . 'css/style.css';
+    $myStyleUrl = SPOILERBLOCK_PLUGIN_URL . '/css/style.css';
 
     wp_register_style('spoiler_block', $myStyleUrl);
     wp_enqueue_style( 'spoiler_block');

@@ -1,10 +1,10 @@
 === Spoiler Block ===
-Author: Brunno dos Santos
-Contributors: Brunno dos Santos
+Author: squiter
+Contributors: squiter
 Tags: spoiler, block text, content spoiler, spoilers, hidden content, content
 Requires at least: 3.2.1
 Tested up to: 3.2.1
-Stable tag: 1.6
+Stable tag: 1.6.3
 Licence: GPLv2
 
 Plugin to block spoilers in your posts.
@@ -13,6 +13,11 @@ Plugin to block spoilers in your posts.
 
 This plugin create a button in your Wordpress editor to set some parts of your posts as spoilers.
 These parts show a blocked content to your visitors, then must click in these blocks to show the original content.
+
+= Translators =
+
+* Brazilian (pt_BR) - [Brunno dos Santos](http://brunno.me/spoiler-block)
+* Romanian (ro) - [Alexander Ovsov](http://webhostinggeeks.com)
 
 
 == Installation ==
@@ -36,10 +41,19 @@ To set a Spoiler block, select a post, or create a new one, select any text then
 To remove a spoiler block, just select the spoiler block then click in spoiler button.
 
 Brunno dos Santos
-brunno@abstraindo.com
-http://brunno.abstraindo.com
+spoilerblock@brunno.me
+http://brunno.me/spoiler-block
 
 == Changelog ==
+
+= 1.6.3 =
+* Added Romanian translation by Alexander Ovsov http://webhostinggeeks.com/
+
+= 1.6.2 =
+* Change contact e-mails and sites urls
+
+= 1.6.1 =
+* Bug fixes
 
 = 1.6 =
 * Resolve some bugs;
